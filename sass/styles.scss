@@ -37,16 +37,24 @@ body{
     padding: 1.5rem;
     margin-bottom: 1.5rem;
 
+
     .title{
-        text-align: center;
-        margin: 1rem auto ;
+        margin: 1rem auto ;        
+        display: flex;
+
+        img{
+            margin-right: 2rem;
+        }
     }
 
-    .faq{
-        margin: 1.5rem auto;
+    
+}
 
-        .answer p{
-            color: $GrayishPurple;
-        }
+.wrapper .faq{
+    margin: 1.5rem auto;
+    border-bottom: 1px solid $LightPink;
+    border-bottom
+    .answer p{
+        color: $GrayishPurple;
     }
 }

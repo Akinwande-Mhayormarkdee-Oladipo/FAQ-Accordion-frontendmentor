@@ -33,7 +33,7 @@ body{
 .wrapper{
     max-width: 375px;
     background-color: white;
-    border-radius: 2rem;
+    border-radius: 1rem;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
 
@@ -53,8 +53,33 @@ body{
 .wrapper .faq{
     margin: 1.5rem auto;
     border-bottom: 1px solid $LightPink;
-    border-bottom
-    .answer p{
-        color: $GrayishPurple;
+    &:last-child{
+        border-bottom: none;
+        margin-bottom: 0;
     }
+    
+    .question{
+        margin: 1rem ;
+        display:flex;
+        justify-content: space-between;
+        
+        h4{
+            width: 80%;
+        }
+    }
+
+    .answer{
+        margin: 0.2rem auto;
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+
+        p{
+            color: $GrayishPurple;
+        }
+    }
+
+     
+
+
 }

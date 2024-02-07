@@ -31,7 +31,7 @@ body {
 .wrapper {
   max-width: 375px;
   background-color: white;
-  border-radius: 2rem;
+  border-radius: 1rem;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -49,6 +49,28 @@ body {
   margin: 1.5rem auto;
   border-bottom: 1px solid hsl(275, 100%, 97%);
 }
-.wrapper .faq border-bottom .answer p {
+.wrapper .faq:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.wrapper .faq .question {
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.wrapper .faq .question h4 {
+  width: 80%;
+}
+.wrapper .faq .answer {
+  margin: 0.2rem auto;
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+.wrapper .faq .answer p {
   color: hsl(292, 16%, 49%);
 }

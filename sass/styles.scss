@@ -64,22 +64,24 @@ body{
         margin: 1rem ;
         display:flex;
         width:100%;
-        justify-content: flex-start;
+        justify-content: space-between;
+        padding-right: 2rem;
         
         h4{
             width: 70%;
         }
 
-         img{
-         content: url('assets/images/icon-plus.svg');
+        img{
+         content: url('/assets/images/icon-plus.svg');
+
          
         }
 
         .icon{
             width: 30px;
             height: 30px;
-            background: url(assets/images/icon-minus.svg) no-repeat white;
-            float:left;
+            background: url(/assets/images/icon-plus.svg) no-repeat;
+            
         }
         
             
@@ -87,7 +89,7 @@ body{
 
     .answer{
         margin: 0.2rem 0 0.5rem 1rem;
-        padding: 0;
+        padding-right: 1rem;
         max-height: 0;
         overflow: hidden;
         transition: all .5s ease-in;

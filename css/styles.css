@@ -58,25 +58,25 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 2rem;
 }
 .wrapper .faq .question h4 {
   width: 70%;
 }
 .wrapper .faq .question img {
-  content: url("assets/images/icon-plus.svg");
+  content: url("/assets/images/icon-plus.svg");
 }
 .wrapper .faq .question .icon {
   width: 30px;
   height: 30px;
-  background: url(assets/images/icon-minus.svg) no-repeat white;
-  float: left;
+  background: url(/assets/images/icon-plus.svg) no-repeat;
 }
 .wrapper .faq .answer {
   margin: 0.2rem 0 0.5rem 1rem;
-  padding: 0;
+  padding-right: 1rem;
   max-height: 0;
   overflow: hidden;
   -webkit-transition: all 0.5s ease-in;

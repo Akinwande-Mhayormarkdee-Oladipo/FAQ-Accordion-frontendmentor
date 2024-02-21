@@ -20,23 +20,25 @@ body{
     min-height: 100vh;
     font-family: 'Work Sans', sans-serif;
     display: flex;
-    // justify-content: center;
-    margin-top: 30%;
+    // justify-content: flex-start;
+    margin-top: 10%;
     align-items: center;
     flex-direction: column;
     background-color: $LightPink;
     background-image: url('/assets/images/background-pattern-desktop.svg');
     background-position: top ;
     background-repeat: no-repeat;
+    background-size: 100vw;
     color: $DarkPurple;
 }
 
 .wrapper{
-    max-width: 375px;
+    width: 40%;
+    
     background-color: white;
     border-radius: 1rem;
     padding: 1.5rem;
-    
+    margin-top: 0px;
     margin-bottom: 1.5rem;
     cursor: pointer;
 
@@ -68,7 +70,7 @@ body{
         padding-right: 2rem;
         
         h4{
-            width: 70%;
+            width: 80%;
         }
 
         img{
@@ -116,12 +118,16 @@ body{
 
 @media only screen and (max-width: 768px) {
     body{
-        margin-top: 20%;
+       
         display: flex;
         flex-direction: column; 
+        background-image: url('/assets/images/background-pattern-mobile.svg') no-repeat;
+
     }
     .wrapper {
-        max-width: 85%;
+        width: 100%;
+        max-width: 375px;
+        margin-top: 2%;
         // margin-top: 20%;
     }
 }

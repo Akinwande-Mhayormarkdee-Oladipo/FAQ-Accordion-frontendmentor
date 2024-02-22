@@ -60,7 +60,7 @@ body {
 .wrapper .faq .question .icon {
   width: 30px;
   height: 30px;
-  background: url("../images/icon-plus.svg") no-repeat;
+  background: url(../images/icon-plus.svg) no-repeat;
   transition: all 0.5s ease-in;
 }
 .wrapper .faq .active .icon {

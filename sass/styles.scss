@@ -25,7 +25,7 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: $LightPink;
-    background-image: url('/assets/images/background-pattern-desktop.svg');
+    background-image: url('/images/background-pattern-desktop.svg');
     background-position: top ;
     background-repeat: no-repeat;
     background-size: 100vw;
@@ -74,14 +74,14 @@ body{
         }
 
         img{
-         content: url('/assets/images/icon-plus.svg');
+         content: url('/images/icon-plus.svg');
         //  transition: all .5s ease-in; 
         }
 
         .icon{
             width: 30px;
             height: 30px;
-            background: url(/assets/images/icon-plus.svg) no-repeat;  
+            background: url(/images/icon-plus.svg) no-repeat;  
             transition: all .5s ease-in; 
         }
         
@@ -90,11 +90,11 @@ body{
     }
 
     .active .icon {
-        background: url(/assets/images/icon-minus.svg) no-repeat ;
+        background: url(/images/icon-minus.svg) no-repeat ;
     }
 
     .active img {
-        content: url(/assets/images/icon-minus.svg);
+        content: url(/images/icon-minus.svg);
         
     }
 
@@ -121,7 +121,7 @@ body{
        
         display: flex;
         flex-direction: column; 
-        background-image: url('/assets/images/background-pattern-mobile.svg') no-repeat;
+        background-image: url('/images/background-pattern-mobile.svg') no-repeat;
 
     }
     .wrapper {

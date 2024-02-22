@@ -12,7 +12,7 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: hsl(275, 100%, 97%);
-  background-image: url("/assets/images/background-pattern-desktop.svg");
+  background-image: url("./assets/images/background-pattern-desktop.svg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100vw;
@@ -55,19 +55,19 @@ body {
   width: 80%;
 }
 .wrapper .faq .question img {
-  content: url("/assets/images/icon-plus.svg");
+  content: url("./assets/images/icon-plus.svg");
 }
 .wrapper .faq .question .icon {
   width: 30px;
   height: 30px;
-  background: url(/assets/images/icon-plus.svg) no-repeat;
+  background: url(./assets/images/icon-plus.svg) no-repeat;
   transition: all 0.5s ease-in;
 }
 .wrapper .faq .active .icon {
-  background: url(/assets/images/icon-minus.svg) no-repeat;
+  background: url(./assets/images/icon-minus.svg) no-repeat;
 }
 .wrapper .faq .active img {
-  content: url(/assets/images/icon-minus.svg);
+  content: url(./assets/images/icon-minus.svg);
 }
 .wrapper .faq .active {
   background-color: white;
@@ -87,7 +87,7 @@ body {
   body {
     display: flex;
     flex-direction: column;
-    background-image: url("/assets/images/background-pattern-mobile.svg") no-repeat;
+    background-image: url("./assets/images/background-pattern-mobile.svg") no-repeat;
   }
   .wrapper {
     width: 100%;
